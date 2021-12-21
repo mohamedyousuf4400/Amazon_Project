@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" >
+  <test thread-count="5" name="WebTest">
+  <parameter name="Email" value="110117106034@aalimec.ac.in"></parameter>
+  <parameter name="Password" value="Yousuf@4400"></parameter>
+  <parameter name="Search1" value="Iphone"></parameter>
+  <parameter name="Search2" value="Smart watch"></parameter>
+  
+    <classes>
+      <class name="webAppTest.AmazonApp"/>
+      <class name="webAppTest.AmazonApp2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
