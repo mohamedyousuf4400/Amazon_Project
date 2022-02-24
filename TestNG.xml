@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" verbose="2" >
   <test thread-count="5" name="WebTest">
-  <parameter name="Email" value="110117106034@aalimec.ac.in"></parameter>
-  <parameter name="Password" value="Yousuf@4400"></parameter>
+  <parameter name="Email" value="*********@gmail.com"></parameter>
+  <parameter name="Password" value="*********"></parameter>
   <parameter name="Search1" value="Iphone"></parameter>
   <parameter name="Search2" value="Smart watch"></parameter>
   
